@@ -73,7 +73,6 @@ def parse_log_data(file):
 #endregion
 
 #region UI
-
 def add_dict_to_screen(dictionary, textwidget):
     for key, value in dictionary.items():
         textwidget.insert(END, f"{key}: {value}\n")
